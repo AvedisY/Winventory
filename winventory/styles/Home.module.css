@@ -1,0 +1,202 @@
+
+
+.Container{
+  background-color: black;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Home_Intro{
+  background-color: black;
+  color: aliceblue;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  
+}
+
+.Home_Intro h1{
+  position: relative;
+  left: 350px;
+  font-size: 35px;
+}
+
+.Intro_Msg{
+  margin-left: auto;
+  position: relative;
+  right: 180px;
+  top: 95px;
+}
+
+.Intro_Buttons{
+  position: relative;
+  right: 35px;
+  margin: 35px;
+  display: flex;
+}
+
+.Intro_Buttons button{
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 0px 15px 0px auto;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+.Intro_Buttons button:hover{
+  color: black;
+  background-color: white;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+  margin-bottom: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transition: 0.3s;
+}
+
+.Intro_Buttons button:hover .arrow{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+}
+
+.Home_Do{
+  background-color: black;
+  color: white;
+}
+
+.Home_Do h2{
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.Table{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.Row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+
+.Row p{
+  max-width: 250px;
+  font-size: 25px;
+}
+
+.Box{
+  background-color: white;
+  width: 250px;
+  height: 250px;
+}
+
+.Explain{
+  background-color: black;
+}
+
+.Try_Page{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.Try_Page h1:first-child {
+  text-align: center;
+  margin: 25px;
+  padding: 15px;
+  border-bottom: 1px solid white;
+  border-radius: 35px;
+}
+
+.Try_Main{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 65px 0 25px 0;
+}
+
+.Try_Main h1{
+  margin: 45px;
+}
+
+.Try_Demo{
+  margin: 45px;
+}
+
+.Try_Demo h3{
+  font-size: 35px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.Try_Input{
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  font-size: 25px;
+  padding: 10px;
+  margin: 35px 15px 35px auto;
+}
+
+.Try_Input:focus{
+  outline: none;
+}
+
+.Try_Input:focus::placeholder {
+  color: transparent;
+}
+
+.Try_Button{
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 0px 15px 0px auto;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+.Try_Button:hover {
+  color: black;
+  background-color: white;
+}
+
+.Try_Online{
+  position: relative;
+  margin: 65px;
+}
+
+.Try_Here{
+  margin: 15px;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  margin-top:25px;
+  padding: 25px 0px;
+}
+
+.Try_Here:hover{
+  border-left: 12px solid white;
+  border-right: 12px solid white;
+}
